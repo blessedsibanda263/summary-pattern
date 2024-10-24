@@ -1,9 +1,11 @@
-import { LongTaskManager } from "./LongTaskManager";
+import { CompactTaskManager } from "./CompactTaskManager";
+// import { LongTaskManager } from "./LongTaskManager";
 
 function App() {
   return (
     <>
-      <LongTaskManager />
+      {/* <LongTaskManager /> */}
+      <CompactTaskManager />
     </>
   );
 }
