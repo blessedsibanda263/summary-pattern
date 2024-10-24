@@ -21,7 +21,7 @@ export function UserPreferences({ preferences, onPreferencesChange }) {
         Notifications:
         <input
           type="checkbox"
-          checked={preferences.notifications}
+          checked={preferences.notifications == true}
           onChange={handleNotificationsChange}
         />
       </label>
