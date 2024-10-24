@@ -1,7 +1,9 @@
+import { LongTaskManager } from "./LongTaskManager";
+
 function App() {
   return (
     <>
-      <h1>Summary Pattern</h1>
+      <LongTaskManager />
     </>
   );
 }
