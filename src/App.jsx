@@ -1,7 +1,9 @@
+import { LongUserProfile } from "./LongUserProfile";
+
 function App() {
   return (
     <>
-      <h1>Summary Pattern</h1>
+      <LongUserProfile userId={1} />
     </>
   );
 }
